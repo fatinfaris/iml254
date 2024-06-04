@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family - My Personal Website</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/familystyle.css">
+</head>
+<body>
+
+<header>
+    <div class="user">
+        <img src="image/myself.png" alt="">
+        <h3 class="name">fatinfaris</h3>
+        <p class="post">𓇢𓆸(¬_¬")</p>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+		<a href="about.html">ABOUT ME</a>
+		<ul class="dropdown">
+                    <li><a href="childhood.html">Childhood Photos</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+			</li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="family.html">FAMILY</a></li>
+            <li><a href="friend.html">FRIENDS</a></li>
+            <li><a href="cat.html">CAT CORNER</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- family section starts -->
+
+<section class="family" id="family">
+    <h1 class="heading">My <span>Family</span></h1>
+    <div class="family-container">
+        <div class="family-member">
+            <img src="image/ayah.jpg" alt="Family Member 1">
+            <h3>Mohd Faris bin Ali</h3>
+            <p>Father</p>
+	    <p>53 years old</p>
+ 	    <p> from Johor Bahru, Johor</p>
+        </div>
+        <div class="family-member">
+            <img src="image/mama.jpeg" alt="Family Member 2">
+            <h3>Azila binti Mahmod</h3>
+            <p>Mother</p>
+	    <p>51 years old</p>
+ 	    <p> from Muar, Johor</p>
+        </div>
+        <div class="family-member">
+            <img src="image/ayah2.jpeg" alt="Family Member 3">
+            <h3>Teruna bin Abdul Marge</h3>
+            <p>step-father</p>
+	    <p>51 years old</p>
+ 	    <p> from Muar, Johor</p>
+        </div>
+	 <div class="family-member">
+            <img src="image/along.jpeg" alt="Family Member 4">
+            <h3>Mohd Harith bin Mohd Faris</h3>
+            <p>Brother</p>
+	    <p>27 years old</p>
+ 	    <p>Born in Hospital Pakar Sultanah Aminah, Johor</p>
+        </div>
+	 <div class="family-member">
+            <img src="image/kakak.jpg" alt="Family Member 5">
+            <h3>Nur Fatiha binti Mohd Faris</h3>
+            <p>older Sister</p>
+	    <p>24 years old</p>
+ 	    <p>Born in Hospital Pakar Sultanah Aminah, Johor</p>
+        </div>
+	 <div class="family-member">
+            <img src="image/adik.jpeg" alt="Family Member 6">
+            <h3>Nurul Suha binti Mohd Faris</h3>
+            <p>Youngest sister</p>
+	    <p>15 years old</p>
+ 	    <p>Born in Hospital Sultan Ismail, Johor</p>
+        </div>
+    </div>
+</section>
+
+<!-- Table for Pictures -->
+<table class="family-table">
+        <tbody>
+            <tr>
+		<td colspan="5">
+                	<h2> Family Gallery</h2>
+		</td>
+            </tr>
+            <tr>
+                <td><img src="image/family1.jpeg" alt="family"></td>
+                <td><img src="image/family2.jpg" alt="family"></td>
+		<td><img src="image/family3.jpg" alt="family"></td>
+            </tr>
+	    <tr>
+		<td><img src="image/family4.jpg" alt="family"></td>
+		<td><img src="image/family5.jpg" alt="family"></td>
+		<td><img src="image/family6.jpg" alt="family"></td>
+	    </tr>
+	     <tr>
+		<td><img src="image/family7.jpg" alt="family"></td>
+		<td><img src="image/family8.jpg" alt="family"></td>
+		<td><img src="image/family9.jpeg" alt="family"></td>
+	    </tr>
+	     <tr>
+		<td><img src="image/family10.jpg" alt="family"></td>
+		<td><img src="image/family11.jpg" alt="family"></td>
+		<td><img src="image/family12.jpg" alt="family"></td>
+	    </tr>
+
+	</tbody>
+    </table>
+</section>
+
+<div class="audio-player">
+    		<button class="play-button"><i class="fas fa-music"></i></button>
+    		<audio class="audio-element" controls>
+        		<source src="audio/movemoodmode.mp3" type="audio/mpeg">
+        		Your browser does not support the audio element.
+    		</audio>
+	</div>
+
+<footer class="footer">
+    <p>&copy; 2024 fatinfaris.All Right Reserved</p>
+</footer>
+
+<!-- family section ends -->
+
+<!-- jquery cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
